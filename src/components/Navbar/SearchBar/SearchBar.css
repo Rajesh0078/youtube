@@ -1,0 +1,54 @@
+.search_input {
+    width: 30rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.search_Bar {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 2.5rem;
+    position: relative;
+}
+
+.label {
+    background: #5e5d5d;
+    height: 100%;
+    width: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.search_icon {
+    vertical-align: middle;
+    margin-left: .6rem;
+    margin-top: .3rem;
+    color: #fff;
+}
+
+.mic {
+    margin-left: 1.3rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: rgb(78, 78, 78);
+    padding: .6rem;
+    border-radius: 50%;
+    color: whitesmoke;
+}
+
+.search_list {
+    position: absolute;
+    top: 120%;
+    width: 89.5%;
+}
+
+.search_list .search_item {
+    padding: .5rem;
+}
+
+.search_list .search_item:hover {
+    background: #7784f18e;
+}
