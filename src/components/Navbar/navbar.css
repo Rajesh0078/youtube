@@ -15,6 +15,7 @@
 
 .hamburger {
     margin: 0 1rem;
+    cursor: pointer;
 }
 
 .youtube_title {
